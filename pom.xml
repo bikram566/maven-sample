@@ -4,7 +4,7 @@
   <groupId>com.webapp</groupId>
   <artifactId>samplewebapp</artifactId>
   <packaging>war</packaging>
-  <version>SNAPSHOT-1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>samplewebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -30,6 +30,11 @@
   </build>
   
   <distributionManagement>
+   <repository>
+    <id>release-maven</id>
+    <url>http://3.83.252.45:8081/nexus/content/repositories/release-maven</url>
+  </repository>
+    
   <snapshotRepository>
     <id>snapshot-maven</id>
     <url>http://3.83.252.45:8081/nexus/content/repositories/snapshot-maven</url>
