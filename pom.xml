@@ -28,4 +28,12 @@
   <build>
     <finalName>samplewebapp</finalName>
   </build>
+  
+  <distributionManagement>
+  <snapshotRepository>
+    <id>snapshot-maven</id>
+    <url>http://3.83.252.45:8081/nexus/content/repositories/snapshot-maven</url>
+  </snapshotRepository>
+</distributionManagement>
+  
 </project>
